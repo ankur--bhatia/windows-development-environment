@@ -22,6 +22,11 @@ cinst -y github
 cinst -y nodejs.install
 npm install -g npm-windows-upgrade
 
+##MongoDb
+cinst -y mongodb
+cinst -y robomongo
+cinst -y mongovue
+
 ## Editors
 cinst -y visualstudiocode
 
